@@ -24,6 +24,26 @@ The feature selection techniques used are:
 3.Embedded Method
 
 # CODING AND OUTPUT:
-       # INCLUDE YOUR CODING AND OUTPUT SCREENSHOTS HERE
+ ~~~
+import pandas as pd 
+from scipy import stats 
+import numpy as np
+df=pd.read_csv("bmi.csv") 
+df.head()
+~~~
+<img width="422" height="202" alt="Screenshot 2026-08-19 222006" src="https://github.com/user-attachments/assets/c5ed8ba1-8d4e-4635-811e-dee1ea463fb9" />
+
+~~~
+df_null_sum=df.isnull().sum() 
+df_null_sum
+~~~
+
+
+<img width="271" height="127" alt="Screenshot 2026-08-19 222123" src="https://github.com/user-attachments/assets/2e6781c0-c088-48cc-a2fc-71acbd1da958" />
+
+
+
+
+
 # RESULT:
        # INCLUDE YOUR RESULT HERE

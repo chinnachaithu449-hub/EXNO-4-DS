@@ -37,10 +37,14 @@ df.head()
 df_null_sum=df.isnull().sum() 
 df_null_sum
 ~~~
-
-
 <img width="271" height="127" alt="Screenshot 2026-08-19 222123" src="https://github.com/user-attachments/assets/2e6781c0-c088-48cc-a2fc-71acbd1da958" />
 
+~~~
+df.dropna()
+~~~
+<img width="530" height="442" alt="Screenshot 2026-08-19 222301" src="https://github.com/user-attachments/assets/c4ab4dd7-cb3a-40e7-8a95-67e7f95cc2f9" />
+
+~~~
 
 
 
